@@ -33,7 +33,7 @@ Route::get('/pass-array', function () {
     return view('tasklist')->withTasks($tasks)->withFoo($foobar);
 });
 
-Route::get('/request-tests', function () {
+Route::get('/request-test', function () {
     return view('request-input', [
         'title' => request('title')
     ]);

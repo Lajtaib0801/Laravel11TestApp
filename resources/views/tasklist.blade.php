@@ -10,9 +10,17 @@
     <?php endforeach; ?>
 </ul> --}}
 
+@extends('layout')
+
+@section('content')
 <ul>
     @foreach ($tasks as $task)
-        <li>{{ $task }}</li>
+    <li>{{ $task }}</li>
     @endforeach
     {{ $foo }}
 </ul>
+@endsection
+
+@section('title')
+Tömb    
+@endsection

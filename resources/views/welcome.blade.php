@@ -1,5 +1,5 @@
-<body>
-    <div>
-        Heloo, {{ $name }}
-    </div>
-</body>
+@extends('layout')
+
+@section('content')
+    Hi, {{ $name }}
+@endsection

@@ -1,2 +1,6 @@
-<h2>{{$post}}</h2>
-<p>length: {{$length}} character{{ $length > 1 ? 's' : ''}}</p>
+@extends("layout")
+
+@section("content")
+    <p>{{ $post }}</p>
+    <p>length: {{ $length }} character(s)</p>
+@endsection
