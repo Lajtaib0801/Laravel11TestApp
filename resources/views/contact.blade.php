@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('pastel-layout')
 
 @section('title')
 Kapcsolat

@@ -10,7 +10,7 @@
     <?php endforeach; ?>
 </ul> --}}
 
-@extends('layout')
+@extends('pastel-layout')
 
 @section('content')
 <ul>
@@ -22,5 +22,5 @@
 @endsection
 
 @section('title')
-Tömb    
+Tömb
 @endsection
